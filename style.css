@@ -1,0 +1,89 @@
+:root {
+  --nova-fiery-red: #D84315;
+  --nova-amber-glow: #FFB300;
+  --nova-charcoal: #2E2E2E;
+  --nova-ash-blue: #90A4AE;
+  --nova-light-mist: #ECEFF1;
+  --font-primary: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: var(--nova-light-mist);
+  color: var(--nova-charcoal);
+  font-family: var(--font-primary);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--nova-ash-blue);
+}
+
+.logo-img {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+.logo {
+  color: var(--nova-fiery-red);
+  font-size: 1.5rem;
+  margin: 0;
+  display: inline-block;
+}
+
+nav a {
+  color: var(--nova-charcoal);
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--nova-amber-glow);
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: var(--nova-ash-blue);
+  color: var(--nova-charcoal);
+}
+
+.primary {
+  background-color: var(--nova-fiery-red);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+.primary:hover {
+  background-color: var(--nova-amber-glow);
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+  background-color: var(--nova-charcoal);
+  color: var(--nova-light-mist);
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
